@@ -90,9 +90,9 @@ margin-bottom: 10px;
    
 }
 
-#card-box .info{
+/* #card-box .info {
 
-}
+} */
 #card-box .title{
     color: #101010;
     text-align: center;
@@ -152,8 +152,9 @@ margin-bottom: 10px;
 
 
 
-/* Responsi Mobile */
-@media only screen and (max-width: 600px) {
+/* Responsi Mobile  */
+
+@media only screen and (max-width: 800px) {
     .card-container{
         flex-direction: column;
         
@@ -176,3 +177,117 @@ margin-bottom: 10px;
     }
 }
     
+ #make-sure{
+    display: flex;
+    padding-right: 3.3125rem;
+    align-items: center;
+    gap: 4.8125rem;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+ }
+ #make-sure .make-sure-img-container{
+    width: 50%;
+
+ }
+ #make-sure .make-sure-img-container img{
+    width: 100%;
+ }
+ #make-sure .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+
+ #make-sure .content .title{
+    color: #101010;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4rem; /* 133.333% */
+ }
+
+ #make-sure .content .description{
+
+    color: #101010;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.follow-us ul{
+    display: flex;
+    gap: 40px;
+}
+ .follow-us h3{
+    color: #101010;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    }
+
+.text-2-5{
+    font-size: 2.5rem;
+    
+}
+footer{
+    height: 41.9375rem;
+   
+    background-image: linear-gradient(45deg,rgba(16, 16, 16, 0.00) -50.5%, lightgray 100%), url(../assets/social-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+}
+footer .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+
+footer .title{
+    color: #101010;
+text-align: center;
+font-family: "Work Sans";
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4rem; /* 133.333% */
+}
+
+footer .description{
+    opacity: 0.6;
+    color: #101010;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+ li{
+    cursor: pointer;
+}
